@@ -1,1 +1,85 @@
-
+{
+  "entries": [
+    {
+      "id": "avia-1.6.0",
+      "version": "1.6.0",
+      "date": "May 25, 2026",
+      "content": [
+        {
+          "type": "image",
+          "src": "https://github.com/user-attachments/assets/dc3adfa3-ce3b-41ef-bdfd-9ca66d333e24",
+          "alt": "Aurora - AviaClient Mascot"
+        },
+        { "type": "spacer" },
+        { "type": "h1", "text": "AviaClient 1.6.0" },
+        { "type": "spacer" },
+        {
+          "type": "paragraph",
+          "text": "A big release! Meet our new mascot, a brand-new plugin & theme repository, and a whole lot more. Here's everything that's new in 1.6.0."
+        },
+        { "type": "spacer" },
+        { "type": "hr" },
+        { "type": "spacer" },
+        { "type": "h2", "text": "New" },
+        { "type": "spacer" },
+        {
+          "type": "ul",
+          "items": [
+            "Meet **Aurora**, our new mascot and logo — created by Amelia in Procreate!",
+            "There is now an integrated **Repository** for plugins and themes, letting you browse and install them directly from within the client.",
+            "With the new **Headliner** feature, you can change the titlebar of AviaClient to anything you like.",
+            "You can now fully **backup and restore** AviaClient's data — themes, plugins, QuickCSS, and more.",
+            "You can now **log in with a session token**.",
+            "A new **About window** has been added, accessible via the tray or by pressing `F1`.",
+            "**Monaco** is now the default editor for Plugins, Local Plugins, Themes, and QuickCSS."
+          ]
+        },
+        { "type": "spacer" },
+        { "type": "hr" },
+        { "type": "spacer" },
+        { "type": "h2", "text": "Changes" },
+        { "type": "spacer" },
+        {
+          "type": "ul",
+          "items": [
+            "Many quality-of-life improvements under the hood for developers.",
+            "The desktop app has been **rebranded** to AviaClient throughout.",
+            "Local plugins can now be imported directly from a `.js` file.",
+            "Themes can now be imported from a `.txt` or `.css` file — including via drag-and-drop.",
+            "The Settings UI now correctly identifies itself as AviaClient.",
+            "You can now display the custom titlebar with the **system's native window buttons** (close, minimize, maximize).",
+            "The tray icon menu now includes a **Restart App** option.",
+            "There's a new option to **disable the show/hide behaviour** of the tray icon when clicking it.",
+            "Plugin installation now supports **Codeberg** in addition to GitHub URLs.",
+            "DevTools can now be opened by pressing `F12`.",
+            "A method to get the AviaClient version via JS has been exposed: `window.native.versions.aviaClient()`.",
+            "AviaClient's version is now displayed in the tray alongside Stoat's version.",
+            "**Discord RPC** now displays AviaClient.",
+            "**macOS:** The default about window now uses AviaClient's version as the buildId.",
+            "**macOS:** Settings can now be opened and closed with `Cmd + ,`."
+          ]
+        },
+        { "type": "spacer" },
+        { "type": "hr" },
+        { "type": "spacer" },
+        { "type": "h2", "text": "Fixes" },
+        { "type": "spacer" },
+        {
+          "type": "ul",
+          "items": [
+            "Fixed chatbar buttons being placed incorrectly under certain circumstances (thanks 0simp#2291!).",
+            "Fixed a rare race condition during app initialization.",
+            "Fixed app badges being unable to display — badge logic still pending."
+          ]
+        },
+        { "type": "spacer" },
+        { "type": "hr" },
+        { "type": "spacer" },
+        {
+          "type": "paragraph",
+          "text": "**Full changelog:** [1.5.0 → 1.6.0 on GitHub](https://github.com/AvaLilac/for-desktop/compare/1.5.0...1.6.0)"
+        }
+      ]
+    }
+  ]
+}
