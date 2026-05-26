@@ -1,14 +1,12 @@
 {
   "entries": [
     {
-      "id": "avia-1.6.0",
-      "version": "1.6.0",
       "date": "May 25, 2026",
       "content": [
         {
           "type": "image",
           "src": "https://github.com/user-attachments/assets/dc3adfa3-ce3b-41ef-bdfd-9ca66d333e24",
-          "alt": "Aurora - AviaClient Mascot"
+          "alt": "Aurora"
         },
         { "type": "spacer" },
         { "type": "h1", "text": "AviaClient 1.6.0" },
