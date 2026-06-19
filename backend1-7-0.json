@@ -1,0 +1,180 @@
+{
+  "entries": [
+    {
+      "date": "June 19, 2026",
+      "content": [
+        {
+          "type": "image",
+          "src": "https://github.com/user-attachments/assets/dc3adfa3-ce3b-41ef-bdfd-9ca66d333e24",
+          "alt": "Aurora"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "h1",
+          "text": "AviaClient 1.7.0"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "hr"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "h2",
+          "text": "New"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Update checker**: Lets you know when there is a new release of Avia Client.",
+            "**Custom badges**: Expanded list of available badges.",
+            "**Flatpak support**: Thanks to `Raptor`.",
+            "**What's new**: A recreation of Stoat's What's New to display what's new in Avia Client.. Wait A Second. Isn't that how you are viewing this?",
+            "**Avia Menu**: A new menu has been added within the chat header.",
+            "**New API**: Plugin Devs can register their own buttons using the API, which will appear inside the new menu."
+          ]
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "hr"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "h2",
+          "text": "Stoat v1.4.0"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "hr"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Screensharing support is now supported along with a Integrated screen picker",
+            "Electron was updated to v40"
+          ]
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "hr"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "h2",
+          "text": "Menu API"
+        },
+        {
+          "type": "paragraph",
+          "text": "Here is how the API works\n\n`window.AviaMenu.register({ id: \"UniqueID\", name: \"Example Name\", icon: \"Any Material 3 Icon here\", onClick: AnyFuntionHere });`\nThe ID has to be Unique. It will fail to register if there is another plugin already using that ID\n"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "hr"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "h2",
+          "text": "Changes"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Avia Client Now uses its own storage. Meaning its a completely **fresh install** of Avia Client.",
+            "Both Online and Local Plugins have both been given a UI revamp.",
+            "Both Online and Local Plugins have had their plugin order reversed - the most recent plugins added now shows on top instead of bottom. ",
+            "Added `@import url(\"\")` support to Themes (not QuickCSS). This allows you to load themes via a URL, allowing themes that either both local and parts of it online - or purely online.",
+            "Font Loader has had a complete UI revamp, including support for Local fonts.",
+            "The Trusted Repo now has the ability to Install Plugins to Local Plugins.",
+            "Monaco has been updated to v0.50.",
+            "**MacOS**: Aurora icon now supports Liquid Glass."
+          ]
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "hr"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "h2",
+          "text": "Fixes"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Fixed Codeberg support being unreliable.",
+            "Every Panel now Fetches its contents on open. This fixes a bug where newly added buttons could not show till you restart the client."
+          ]
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "hr"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "h2",
+          "text": "Removed"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Removed our custom frame plugin now that MacOS support is built-in."
+          ]
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "hr"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "h1",
+          "text": "Warning"
+        },
+        {
+          "type": "h3",
+          "text": "Your settings and data will not transfer automatically. Backup your settings. You will need to sign back in."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Full Changelog**: [1.6.0 → 1.7.0 on GitHub](https://github.com/AvaLilac/for-desktop/compare/1.6.0...1.7.0)"
+        }
+      ]
+    }
+  ]
+}
